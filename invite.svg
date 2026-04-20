@@ -100,7 +100,17 @@
   <line x1="140" y1="613" x2="660" y2="613" stroke="#b983ff" stroke-width="1.5"/>
 
   <!-- Date & Time -->
-  <text x="400" y="655" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#6d28d9" text-anchor="middle">�  Sunday, April 26, 2026</text>
+  <!-- Custom calendar icon for date -->
+  <g transform="translate(174, 628)">
+    <rect x="0" y="0" width="42" height="38" rx="5" fill="#b983ff"/>
+    <rect x="0" y="0" width="42" height="13" rx="5" fill="#7c3aed"/>
+    <rect x="0" y="9" width="42" height="4" fill="#7c3aed"/>
+    <circle cx="11" cy="0" r="3.5" fill="#ede0ff"/>
+    <circle cx="31" cy="0" r="3.5" fill="#ede0ff"/>
+    <text x="21" y="11" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="0.5">APR</text>
+    <text x="21" y="33" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#3b0764" text-anchor="middle">26</text>
+  </g>
+  <text x="228" y="655" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#6d28d9" text-anchor="start">  Sunday, April 26, 2026</text>
   <text x="400" y="692" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#7c3aed" text-anchor="middle">🕐  1:00 PM onwards</text>
 
   <!-- Divider 2 -->
