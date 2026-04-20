@@ -31,3 +31,4 @@ We can't wait to celebrate with you! 🌸🌷🌸
 ---
 
 > 📌 **Live website:** https://m4manugoel.github.io/baby-shower/
+> 🖼 **High-res invitation image (PNG):** https://m4manugoel.github.io/baby-shower/invite.png
