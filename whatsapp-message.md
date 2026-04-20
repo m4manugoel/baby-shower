@@ -21,7 +21,7 @@ and we'd love to celebrate this precious milestone with YOU! 🥰
 https://maps.app.goo.gl/U7pwr661huqwVc3k7?g_st=am
 
 🌐 *More details & invitation:*
-https://nidhijindal.github.io/baby-shower/
+https://m4manugoel.github.io/baby-shower/
 
 Come share in our joy, laughter, and love as we await our little bundle! 🎀
 
@@ -30,6 +30,4 @@ We can't wait to celebrate with you! 🌸🌷🌸
 
 ---
 
-> 📌 **Note on the website link:**
-> Replace `https://nidhijindal.github.io/baby-shower/` with your actual GitHub Pages URL
-> once you publish the site (see README.md for instructions).
+> 📌 **Live website:** https://m4manugoel.github.io/baby-shower/
