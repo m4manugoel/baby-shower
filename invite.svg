@@ -100,7 +100,7 @@
   <line x1="140" y1="613" x2="660" y2="613" stroke="#b983ff" stroke-width="1.5"/>
 
   <!-- Date & Time -->
-  <text x="400" y="655" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#6d28d9" text-anchor="middle">📅  Sunday, April 26, 2026</text>
+  <text x="400" y="655" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#6d28d9" text-anchor="middle">�  Sunday, April 26, 2026</text>
   <text x="400" y="692" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#7c3aed" text-anchor="middle">🕐  1:00 PM onwards</text>
 
   <!-- Divider 2 -->
