@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="theme-color" content="#f48fb1" />
+  <meta name="description" content="Baby Shower Invitation – Manu Goel & Nidhi Jindal · April 26, 2026" />
+  <meta property="og:title" content="🍼 Baby Shower – Manu & Nidhi" />
+  <meta property="og:description" content="Join us on April 26, 2026 at 1:00 PM · American Fork, UT" />
+  <meta property="og:image" content="invite.svg" />
+  <title>Baby Shower – Manu &amp; Nidhi 🍼</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Reset ───────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: linear-gradient(160deg, #fce4ec 0%, #f8bbd9 45%, #e1bee7 100%);
+      min-height: 100vh;
+      color: #4a0030;
+      overflow-x: hidden;
+    }
+
+    /* ── Floating petals ─────────────────────── */
+    .petal {
+      position: fixed;
+      top: -60px;
+      font-size: 1.3rem;
+      animation: fall linear infinite;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.65;
+    }
+    @keyframes fall {
+      0%   { transform: translateY(0)      rotate(0deg);   opacity: 0.7; }
+      100% { transform: translateY(110vh)  rotate(360deg); opacity: 0;   }
+    }
+
+    /* ── Hero ────────────────────────────────── */
+    .hero {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 48px 20px 28px;
+    }
+    .hero .tag {
+      display: inline-block;
+      background: #f48fb1;
+      color: #fff;
+      font-size: 0.78rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      padding: 6px 22px;
+      border-radius: 50px;
+      margin-bottom: 18px;
+      font-weight: 700;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 9vw, 3.8rem);
+      color: #880e4f;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .hero h1 span { color: #6a1b9a; }
+    .hero .subtitle {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(0.95rem, 3.5vw, 1.2rem);
+      color: #ad1457;
+      line-height: 1.6;
+    }
+
+    /* ── Outer card wrapper ───────────────────── */
+    .card-wrap {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      padding: 8px 14px 48px;
+    }
+    .card {
+      background: rgba(255,255,255,0.87);
+      border-radius: 24px;
+      box-shadow: 0 16px 52px rgba(194,24,91,0.16);
+      max-width: 780px;
+      width: 100%;
+      overflow: hidden;
+      backdrop-filter: blur(6px);
+    }
+
+    /* ── Invite image ────────────────────────── */
+    .invite-img-section {
+      background: linear-gradient(135deg, #fce4ec, #e1bee7);
+      padding: 22px 16px;
+      display: flex;
+      justify-content: center;
+    }
+    .invite-img-section img {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(136,14,79,0.18);
+      display: block;
+    }
+
+    /* ── Details ─────────────────────────────── */
+    /* Mobile-first: tight padding, expands on wider screens */
+    .details { padding: 24px 16px 28px; }
+    @media (min-width: 480px) { .details { padding: 32px 28px 36px; } }
+    @media (min-width: 700px) { .details { padding: 40px 50px 46px; } }
+
+    .details h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.3rem, 5vw, 1.9rem);
+      color: #880e4f;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .details h2::after {
+      content: '';
+      display: block;
+      width: 70px;
+      height: 3px;
+      background: linear-gradient(90deg, #f48fb1, #ce93d8);
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    /* ── Info grid — 2 cols on mobile, 4 on wide ── */
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    @media (min-width: 600px) {
+      .info-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; margin-bottom: 30px; }
+    }
+
+    .info-item {
+      background: linear-gradient(135deg, #fce4ec55, #e1bee755);
+      border: 1.5px solid #f48fb155;
+      border-radius: 14px;
+      padding: 16px 10px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .info-item:active { transform: scale(0.97); }
+    @media (hover: hover) {
+      .info-item:hover { transform: translateY(-4px); box-shadow: 0 8px 22px rgba(194,24,91,0.12); }
+    }
+    .info-item .icon { font-size: 1.7rem; margin-bottom: 6px; }
+    .info-item .label {
+      font-size: 0.65rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #f06292;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .info-item .value {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(0.85rem, 2.5vw, 1.05rem);
+      color: #4a0030;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    .info-item .value small {
+      display: block;
+      font-family: 'Lato', sans-serif;
+      font-size: clamp(0.7rem, 2vw, 0.82rem);
+      font-weight: 400;
+      color: #777;
+      margin-top: 3px;
+    }
+
+    /* ── Map button — full-width on mobile ──── */
+    .map-btn-wrap { text-align: center; margin-bottom: 22px; }
+    .map-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #f48fb1, #ce93d8);
+      color: #fff;
+      text-decoration: none;
+      font-size: clamp(0.88rem, 3vw, 1rem);
+      font-weight: 700;
+      padding: 15px 20px;
+      border-radius: 50px;
+      box-shadow: 0 6px 20px rgba(194,24,91,0.28);
+      transition: transform 0.2s, box-shadow 0.2s;
+      width: 100%;
+    }
+    @media (min-width: 480px) {
+      .map-btn { display: inline-flex; width: auto; padding: 14px 34px; }
+    }
+    .map-btn:active { transform: scale(0.98); }
+    @media (hover: hover) {
+      .map-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(194,24,91,0.38); }
+    }
+
+    /* ── Quote ───────────────────────────────── */
+    .message-box {
+      background: linear-gradient(135deg, #fff0f6, #f3e5f5);
+      border-left: 4px solid #f48fb1;
+      border-radius: 12px;
+      padding: 18px 16px;
+      margin-bottom: 22px;
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: clamp(0.9rem, 3vw, 1.05rem);
+      color: #555;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    /* ── Countdown ───────────────────────────── */
+    .countdown-section { text-align: center; margin-bottom: 22px; }
+    .countdown-section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(0.95rem, 3.5vw, 1.2rem);
+      color: #ad1457;
+      margin-bottom: 14px;
+    }
+    .countdown-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: nowrap;
+    }
+    .countdown-box {
+      background: linear-gradient(135deg, #f48fb1, #ce93d8);
+      color: #fff;
+      border-radius: 12px;
+      padding: 12px 0;
+      flex: 1;
+      max-width: 82px;
+      box-shadow: 0 4px 14px rgba(194,24,91,0.2);
+    }
+    .countdown-box .num {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 5.5vw, 2.1rem);
+      font-weight: 700;
+      line-height: 1;
+    }
+    .countdown-box .unit {
+      font-size: clamp(0.55rem, 2vw, 0.7rem);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0.9;
+      margin-top: 4px;
+    }
+    #countdown-msg {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: #880e4f;
+      font-style: italic;
+      display: none;
+      padding: 8px;
+    }
+
+    /* ── RSVP ────────────────────────────────── */
+    .rsvp-section {
+      background: linear-gradient(135deg, #fce4ec, #e1bee7);
+      border-radius: 16px;
+      padding: 24px 18px;
+      text-align: center;
+    }
+    .rsvp-section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.1rem, 4vw, 1.4rem);
+      color: #880e4f;
+      margin-bottom: 8px;
+    }
+    .rsvp-section p {
+      font-size: clamp(0.85rem, 3vw, 1rem);
+      color: #555;
+      margin-bottom: 4px;
+      line-height: 1.6;
+    }
+
+    /* ── Footer ──────────────────────────────── */
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 22px 20px;
+      font-size: 0.85rem;
+      color: #ad1457;
+      font-style: italic;
+    }
+    footer span { color: #f06292; }
+  </style>
+</head>
+<body>
+
+  <!-- Floating petals -->
+  <div class="petal" style="left:5%;  animation-duration:7s;  animation-delay:0s;">🌸</div>
+  <div class="petal" style="left:15%; animation-duration:9s;  animation-delay:1s;">🌷</div>
+  <div class="petal" style="left:25%; animation-duration:6s;  animation-delay:2s;">✿</div>
+  <div class="petal" style="left:38%; animation-duration:10s; animation-delay:0.5s;">🌸</div>
+  <div class="petal" style="left:52%; animation-duration:8s;  animation-delay:3s;">🌷</div>
+  <div class="petal" style="left:65%; animation-duration:7.5s;animation-delay:1.5s;">✿</div>
+  <div class="petal" style="left:75%; animation-duration:9.5s;animation-delay:0.8s;">🌸</div>
+  <div class="petal" style="left:88%; animation-duration:6.5s;animation-delay:2.5s;">🌷</div>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="tag">You're Invited 🍼</div>
+    <h1>Baby Shower<br/><span>Celebration</span></h1>
+    <p class="subtitle">Join us as we celebrate the newest addition<br/>to the Goel–Jindal family! 💕</p>
+  </section>
+
+  <!-- ═══ CARD ═══ -->
+  <div class="card-wrap">
+    <div class="card">
+
+      <!-- Invite Image -->
+      <div class="invite-img-section">
+        <img src="invite.svg" alt="Baby Shower Invitation – Manu Goel & Nidhi Jindal" />
+      </div>
+
+      <!-- Details -->
+      <div class="details">
+        <h2>Event Details</h2>
+
+        <div class="info-grid">
+          <div class="info-item">
+            <div class="icon">👶</div>
+            <div class="label">Celebrating</div>
+            <div class="value">Manu Goel<br/>&amp; Nidhi Jindal<small>Their little bundle of joy!</small></div>
+          </div>
+          <div class="info-item">
+            <div class="icon">📅</div>
+            <div class="label">Date</div>
+            <div class="value">Sunday<small>April 26, 2026</small></div>
+          </div>
+          <div class="info-item">
+            <div class="icon">🕐</div>
+            <div class="label">Time</div>
+            <div class="value">1:00 PM<small>onwards</small></div>
+          </div>
+          <div class="info-item">
+            <div class="icon">🏠</div>
+            <div class="label">Venue</div>
+            <div class="value">302 S 740 E, Unit G105<small>American Fork, UT – 84003</small></div>
+          </div>
+        </div>
+
+        <!-- Map Button -->
+        <div class="map-btn-wrap">
+          <a class="map-btn" href="https://maps.app.goo.gl/U7pwr661huqwVc3k7?g_st=am" target="_blank" rel="noopener">
+            📍 &nbsp;Open in Google Maps
+          </a>
+        </div>
+
+        <!-- Message -->
+        <div class="message-box">
+          "We are overjoyed and would love nothing more than to celebrate this beautiful moment with you.
+          Come share in our happiness, laughter, and love as we await our little one! 🎀"
+          <br/><br/>
+          — <strong>Manu Goel &amp; Nidhi Jindal</strong>
+        </div>
+
+        <!-- Countdown -->
+        <div class="countdown-section">
+          <h3>⏳ Counting down to the big day!</h3>
+          <div class="countdown-boxes" id="countdown-boxes">
+            <div class="countdown-box"><div class="num" id="cd-days">--</div><div class="unit">Days</div></div>
+            <div class="countdown-box"><div class="num" id="cd-hours">--</div><div class="unit">Hours</div></div>
+            <div class="countdown-box"><div class="num" id="cd-mins">--</div><div class="unit">Minutes</div></div>
+            <div class="countdown-box"><div class="num" id="cd-secs">--</div><div class="unit">Seconds</div></div>
+          </div>
+          <p id="countdown-msg">🎉 The party is here! Let's celebrate! 🎉</p>
+        </div>
+
+        <!-- RSVP -->
+        <div class="rsvp-section">
+          <h3>💌 Kindly RSVP</h3>
+          <p>Please let Manu or Nidhi know if you can make it!</p>
+          <p style="margin-top:10px; font-size:0.9rem; color:#888;">We can't wait to celebrate with you 🌸</p>
+        </div>
+      </div><!-- /details -->
+
+    </div><!-- /card -->
+  </div><!-- /card-wrap -->
+
+  <footer>
+    Made with <span>♥</span> for Manu &amp; Nidhi · Baby Shower 2026
+  </footer>
+
+  <script>
+    // ── Countdown Timer ──────────────────────────────────────
+    const eventDate = new Date('2026-04-26T13:00:00');
+
+    function updateCountdown() {
+      const now  = new Date();
+      const diff = eventDate - now;
+
+      if (diff <= 0) {
+        document.getElementById('countdown-boxes').style.display = 'none';
+        document.getElementById('countdown-msg').style.display   = 'block';
+        return;
+      }
+
+      const days  = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins  = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const secs  = Math.floor((diff % (1000 * 60)) / 1000);
+
+      document.getElementById('cd-days').textContent  = String(days).padStart(2, '0');
+      document.getElementById('cd-hours').textContent = String(hours).padStart(2, '0');
+      document.getElementById('cd-mins').textContent  = String(mins).padStart(2, '0');
+      document.getElementById('cd-secs').textContent  = String(secs).padStart(2, '0');
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+
+</body>
+</html>

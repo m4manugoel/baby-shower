@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap');
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fce4ec;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f8bbd9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f48fb1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ce93d8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#c2185b" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bgGrad)" rx="24"/>
+
+  <!-- Decorative border -->
+  <rect x="18" y="18" width="764" height="964" fill="none" stroke="#f48fb1" stroke-width="2.5" rx="18" stroke-dasharray="12,8"/>
+  <rect x="28" y="28" width="744" height="944" fill="none" stroke="#ce93d8" stroke-width="1.5" rx="14" stroke-dasharray="6,10"/>
+
+  <!-- Top decorative flowers/circles -->
+  <!-- Left side floral cluster -->
+  <circle cx="80" cy="90" r="38" fill="#f8bbd9" opacity="0.6"/>
+  <circle cx="60" cy="120" r="22" fill="#f48fb1" opacity="0.5"/>
+  <circle cx="110" cy="60" r="18" fill="#ce93d8" opacity="0.5"/>
+  <circle cx="48" cy="70" r="14" fill="#fff9c4" opacity="0.7"/>
+  <!-- Flower left -->
+  <circle cx="80" cy="90" r="12" fill="#fff" opacity="0.9"/>
+  <ellipse cx="80" cy="68" rx="8" ry="14" fill="#f06292" opacity="0.7"/>
+  <ellipse cx="80" cy="112" rx="8" ry="14" fill="#f06292" opacity="0.7"/>
+  <ellipse cx="58" cy="90" rx="14" ry="8" fill="#f06292" opacity="0.7"/>
+  <ellipse cx="102" cy="90" rx="14" ry="8" fill="#f06292" opacity="0.7"/>
+  <circle cx="80" cy="90" r="9" fill="#fff176"/>
+
+  <!-- Right side floral cluster -->
+  <circle cx="720" cy="90" r="38" fill="#f8bbd9" opacity="0.6"/>
+  <circle cx="742" cy="120" r="22" fill="#f48fb1" opacity="0.5"/>
+  <circle cx="692" cy="60" r="18" fill="#ce93d8" opacity="0.5"/>
+  <circle cx="754" cy="70" r="14" fill="#fff9c4" opacity="0.7"/>
+  <!-- Flower right -->
+  <circle cx="720" cy="90" r="12" fill="#fff" opacity="0.9"/>
+  <ellipse cx="720" cy="68" rx="8" ry="14" fill="#ba68c8" opacity="0.7"/>
+  <ellipse cx="720" cy="112" rx="8" ry="14" fill="#ba68c8" opacity="0.7"/>
+  <ellipse cx="698" cy="90" rx="14" ry="8" fill="#ba68c8" opacity="0.7"/>
+  <ellipse cx="742" cy="90" rx="14" ry="8" fill="#ba68c8" opacity="0.7"/>
+  <circle cx="720" cy="90" r="9" fill="#fff176"/>
+
+  <!-- Stars scattered -->
+  <text x="160" y="55" font-size="22" fill="#f48fb1" opacity="0.8">✦</text>
+  <text x="630" y="55" font-size="22" fill="#ce93d8" opacity="0.8">✦</text>
+  <text x="200" y="130" font-size="14" fill="#f48fb1" opacity="0.6">✦</text>
+  <text x="580" y="130" font-size="14" fill="#ce93d8" opacity="0.6">✦</text>
+  <text x="380" y="40" font-size="18" fill="#ba68c8" opacity="0.7">✦</text>
+  <text x="420" y="45" font-size="12" fill="#f06292" opacity="0.6">✦</text>
+
+  <!-- Baby carriage icon area -->
+  <g transform="translate(340, 145)">
+    <!-- carriage body -->
+    <path d="M 60 60 Q 60 20 100 20 L 160 20 Q 200 20 200 60 Z" fill="#f48fb1" opacity="0.9"/>
+    <rect x="60" y="58" width="140" height="50" rx="10" fill="#f48fb1" opacity="0.9"/>
+    <!-- hood -->
+    <path d="M 55 60 Q 40 30 60 20 L 60 60 Z" fill="#f06292"/>
+    <!-- handle -->
+    <path d="M 200 40 Q 230 30 240 60" stroke="#ad1457" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- wheels -->
+    <circle cx="95" cy="118" r="22" fill="#fff" stroke="#f06292" stroke-width="5"/>
+    <circle cx="95" cy="118" r="10" fill="#f48fb1"/>
+    <circle cx="175" cy="118" r="22" fill="#fff" stroke="#f06292" stroke-width="5"/>
+    <circle cx="175" cy="118" r="10" fill="#f48fb1"/>
+    <!-- axle -->
+    <line x1="73" y1="118" x2="197" y2="118" stroke="#f06292" stroke-width="4"/>
+    <!-- stars on carriage -->
+    <text x="100" y="55" font-size="18" fill="#fff" opacity="0.9">⭐</text>
+    <text x="140" y="50" font-size="14" fill="#fff9c4" opacity="0.9">✦</text>
+  </g>
+
+  <!-- "It's a Baby Shower!" banner -->
+  <rect x="80" y="320" width="640" height="68" rx="34" fill="url(#bannerGrad)" filter="url(#shadow)"/>
+  <text x="400" y="363" font-family="Playfair Display, Georgia, serif" font-size="30" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="2">🍼 It's a Baby Shower! 🍼</text>
+
+  <!-- Main card body -->
+  <rect x="60" y="420" width="680" height="500" rx="24" fill="#fff" opacity="0.82" filter="url(#shadow)"/>
+
+  <!-- Celebrating text -->
+  <text x="400" y="472" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#ad1457" text-anchor="middle" letter-spacing="1" font-style="italic">— Celebrating the arrival of —</text>
+
+  <!-- Names -->
+  <text x="400" y="530" font-family="Playfair Display, Georgia, serif" font-size="36" font-weight="bold" fill="#880e4f" text-anchor="middle" letter-spacing="1">Manu Goel &amp; Nidhi Jindal's</text>
+  <text x="400" y="575" font-family="Playfair Display, Georgia, serif" font-size="28" fill="#6a1b9a" text-anchor="middle" letter-spacing="2">Little Bundle of Joy</text>
+
+  <!-- Divider -->
+  <line x1="140" y1="600" x2="660" y2="600" stroke="#f48fb1" stroke-width="1.5"/>
+  <text x="400" y="606" font-size="18" fill="#f48fb1" text-anchor="middle">🌸 🌷 🌸</text>
+  <line x1="140" y1="613" x2="660" y2="613" stroke="#f48fb1" stroke-width="1.5"/>
+
+  <!-- Date & Time -->
+  <text x="400" y="655" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#ad1457" text-anchor="middle">📅  Sunday, April 26, 2026</text>
+  <text x="400" y="692" font-family="Playfair Display, Georgia, serif" font-size="22" fill="#6a1b9a" text-anchor="middle">🕐  1:00 PM onwards</text>
+
+  <!-- Divider 2 -->
+  <line x1="200" y1="715" x2="600" y2="715" stroke="#ce93d8" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- Address -->
+  <text x="400" y="748" font-family="Playfair Display, Georgia, serif" font-size="19" fill="#555" text-anchor="middle">📍  302 S 740 E, Unit G105</text>
+  <text x="400" y="778" font-family="Playfair Display, Georgia, serif" font-size="19" fill="#555" text-anchor="middle">American Fork, UT - 84003</text>
+
+  <!-- Divider 3 -->
+  <line x1="200" y1="800" x2="600" y2="800" stroke="#ce93d8" stroke-width="1" stroke-dasharray="6,4"/>
+
+  <!-- RSVP -->
+  <text x="400" y="836" font-family="Playfair Display, Georgia, serif" font-size="18" fill="#ad1457" text-anchor="middle" font-style="italic">Kindly RSVP to Manu or Nidhi 💌</text>
+
+  <!-- Footer note -->
+  <text x="400" y="880" font-family="Playfair Display, Georgia, serif" font-size="15" fill="#888" text-anchor="middle" font-style="italic">Come celebrate this joyful journey with us!</text>
+
+  <!-- Bottom flowers -->
+  <!-- Left bottom -->
+  <circle cx="100" cy="940" r="30" fill="#f8bbd9" opacity="0.55"/>
+  <circle cx="75" cy="965" r="18" fill="#f48fb1" opacity="0.45"/>
+  <ellipse cx="100" cy="918" rx="7" ry="12" fill="#f06292" opacity="0.65"/>
+  <ellipse cx="100" cy="962" rx="7" ry="12" fill="#f06292" opacity="0.65"/>
+  <ellipse cx="78" cy="940" rx="12" ry="7" fill="#f06292" opacity="0.65"/>
+  <ellipse cx="122" cy="940" rx="12" ry="7" fill="#f06292" opacity="0.65"/>
+  <circle cx="100" cy="940" r="8" fill="#fff176"/>
+
+  <!-- Right bottom -->
+  <circle cx="700" cy="940" r="30" fill="#e1bee7" opacity="0.55"/>
+  <circle cx="725" cy="965" r="18" fill="#ce93d8" opacity="0.45"/>
+  <ellipse cx="700" cy="918" rx="7" ry="12" fill="#ba68c8" opacity="0.65"/>
+  <ellipse cx="700" cy="962" rx="7" ry="12" fill="#ba68c8" opacity="0.65"/>
+  <ellipse cx="678" cy="940" rx="12" ry="7" fill="#ba68c8" opacity="0.65"/>
+  <ellipse cx="722" cy="940" rx="12" ry="7" fill="#ba68c8" opacity="0.65"/>
+  <circle cx="700" cy="940" r="8" fill="#fff176"/>
+
+  <!-- Bottom stars -->
+  <text x="200" y="970" font-size="16" fill="#f48fb1" opacity="0.7">✦</text>
+  <text x="580" y="970" font-size="16" fill="#ce93d8" opacity="0.7">✦</text>
+  <text x="380" y="985" font-size="14" fill="#ba68c8" opacity="0.7">✦</text>
+  <text x="420" y="990" font-size="10" fill="#f06292" opacity="0.6">✦</text>
+</svg>
