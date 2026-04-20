@@ -82,13 +82,13 @@
 
   <!-- "It's a Baby Shower!" banner -->
   <rect x="80" y="320" width="640" height="68" rx="34" fill="url(#bannerGrad)" filter="url(#shadow)"/>
-  <text x="400" y="363" font-family="Playfair Display, Georgia, serif" font-size="30" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="2">🍼 It's a Baby Shower! 🍼</text>
+  <text x="400" y="363" font-family="Playfair Display, Georgia, serif" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="2">🍼 Baby Shower 🍼</text>
 
   <!-- Main card body -->
   <rect x="60" y="420" width="680" height="500" rx="24" fill="#fff" opacity="0.82" filter="url(#shadow)"/>
 
   <!-- Celebrating text -->
-  <text x="400" y="472" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#6d28d9" text-anchor="middle" letter-spacing="1" font-style="italic">— Celebrating the arrival of —</text>
+  <text x="400" y="472" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#6d28d9" text-anchor="middle" letter-spacing="1" font-style="italic">— In honour of mama-to-be —</text>
 
   <!-- Names -->
   <text x="400" y="530" font-family="Playfair Display, Georgia, serif" font-size="36" font-weight="bold" fill="#5b21b6" text-anchor="middle" letter-spacing="1">Manu Goel &amp; Nidhi Jindal's</text>

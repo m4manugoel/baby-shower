@@ -6,11 +6,14 @@ Copy and paste the message below into your WhatsApp broadcast or group:
 
 🍼✨ *YOU'RE INVITED!* ✨🍼
 
-We are over the moon to announce that our little one is on the way,
-and we'd love to celebrate this precious milestone with YOU! 🥰
+Our family is growing and we couldn't be more excited! 🥰
+Please join us to shower our wonderful mama-to-be
+*Nidhi Jindal* with love, as she and *Manu Goel*
+await their little bundle of joy! 👶💜
 
 💕 *Baby Shower*
-👶 Hosted by: *Manu Goel & Nidhi Jindal*
+👶 In honour of: *Nidhi Jindal*
+🎉 Hosted by: *Manu Goel & Nidhi Jindal*
 
 📅 *Date:* Sunday, April 26, 2026
 🕐 *Time:* 1:00 PM onwards
