@@ -44,8 +44,9 @@
       position: relative;
       z-index: 1;
       text-align: center;
-      padding: 48px 20px 28px;
+      padding: 36px 20px 20px;
     }
+    @media (min-width: 480px) { .hero { padding: 52px 24px 28px; } }
     .hero .tag {
       display: inline-block;
       background: #f48fb1;
@@ -90,20 +91,22 @@
       width: 100%;
       overflow: hidden;
       backdrop-filter: blur(6px);
+      min-width: 0;
     }
 
     /* ── Invite image ────────────────────────── */
     .invite-img-section {
       background: linear-gradient(135deg, #fce4ec, #e1bee7);
-      padding: 22px 16px;
+      padding: 14px 12px;
       display: flex;
       justify-content: center;
     }
+    @media (min-width: 480px) { .invite-img-section { padding: 22px 20px; } }
     .invite-img-section img {
       width: 100%;
       max-width: 420px;
       height: auto;
-      border-radius: 16px;
+      border-radius: 12px;
       box-shadow: 0 8px 32px rgba(136,14,79,0.18);
       display: block;
     }
@@ -314,7 +317,7 @@
   <section class="hero">
     <div class="tag">You're Invited 🍼</div>
     <h1>Baby Shower<br/><span>Celebration</span></h1>
-    <p class="subtitle">Join us as we celebrate the newest addition<br/>to the Goel–Jindal family! 💕</p>
+    <p class="subtitle">Join us as we celebrate the newest addition to the Goel–Jindal family! 💕</p>
   </section>
 
   <!-- ═══ CARD ═══ -->
@@ -374,8 +377,8 @@
           <div class="countdown-boxes" id="countdown-boxes">
             <div class="countdown-box"><div class="num" id="cd-days">--</div><div class="unit">Days</div></div>
             <div class="countdown-box"><div class="num" id="cd-hours">--</div><div class="unit">Hours</div></div>
-            <div class="countdown-box"><div class="num" id="cd-mins">--</div><div class="unit">Minutes</div></div>
-            <div class="countdown-box"><div class="num" id="cd-secs">--</div><div class="unit">Seconds</div></div>
+            <div class="countdown-box"><div class="num" id="cd-mins">--</div><div class="unit">Mins</div></div>
+            <div class="countdown-box"><div class="num" id="cd-secs">--</div><div class="unit">Secs</div></div>
           </div>
           <p id="countdown-msg">🎉 The party is here! Let's celebrate! 🎉</p>
         </div>
